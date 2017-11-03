@@ -1,0 +1,100 @@
+html {
+  background-color: #fcfcfc;
+}
+
+.kingGradient {
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ActiveICODiv,
+.UpcomingICODiv,
+.RecentICODiv {
+  display: none;
+}
+
+#navi {
+  height: 160%;
+}
+
+.logo {
+  width: 200px;
+  padding: 20px 30px;
+}
+
+.navElements {
+  padding-top: 14px;
+}
+
+.titleICO {
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 580%;
+  color: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardInfo {
+  color: #5f2c82;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #5f2c82;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: #49a09d;
+}
+.card .card-title {
+
+    font-weight: 500;
+
+  color: #5f2c82;
+  margin-left: 6px;
+}
+
+.icoIcons {
+  width: 2em;
+  margin-right: 2px;
+}
+
+.card-content {
+  height: 14em;
+  overflow: auto;
+}
+.card .card-action {
+  padding: 10px;
+}
+.cardFooter {
+  margin-bottom: 0;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  margin-right: 0;
+}
+
+.daysLeft {
+  float: left;
+  font-weight: 800;
+  color: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*media page ---------------------------------------------------------------------- */
+
+.homeNav {
+  padding-right: 26px;
+}
+
+@media (min-width: 1550px){
+  .container {
+    max-width: 85%;
+  }
+}

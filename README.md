@@ -1,2 +1,2 @@
-# ico-kingdom
-an ico release countdown app 
+# icoKingdom
+ico release info website for a client
