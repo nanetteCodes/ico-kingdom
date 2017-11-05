@@ -94,7 +94,7 @@ html {
 }
 
 
-
+/*media queries page ---------------------------------------------------------------- */
 @media (max-width: 992px){
   .twitterWrapper {
     margin-top: 20px;
