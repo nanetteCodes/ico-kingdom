@@ -23,10 +23,22 @@ html {
   padding: 20px 30px;
 }
 
-.navElements {
+#navElements {
   padding-top: 14px;
 }
 
+#mobileNavMenu{
+  position: relative;
+  top: 100px;
+  left: 36px;
+  color: blue;
+
+}
+
+#logoinSideNav {
+  margin-left: 77px;
+  width:100px
+}
 .titleICO {
   padding-top: 30px;
   font-weight: 500;
@@ -94,7 +106,7 @@ html {
 }
 
 
-/*media queries page ---------------------------------------------------------------- */
+/*media queries -------------------------------------------------------------------- */
 @media (max-width: 992px){
   .twitterWrapper {
     margin-top: 20px;
