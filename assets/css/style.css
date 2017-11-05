@@ -23,16 +23,35 @@ html {
   padding: 20px 30px;
 }
 
+.nav-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-bottom: 0px;
+  z-index: 997;
+}
+
 #navElements {
   padding-top: 14px;
 }
 
-#mobileNavMenu{
+#mobileNavMenu {
   position: relative;
-  top: 100px;
-  left: 36px;
-  color: blue;
+  top: 28px;
+  margin-right:20px;
+  color: #fcfcfc;
+}
+#mobileNavMenu:hover {
+  cursor: pointer; 
+}
 
+i.medium {
+  font-size: 3rem;
+}
+
+#sidenav-overlay {
+  z-index: 998;
 }
 
 #logoinSideNav {
@@ -62,9 +81,7 @@ html {
   color: #49a09d;
 }
 .card .card-title {
-
-    font-weight: 500;
-
+  font-weight: 500;
   color: #5f2c82;
   margin-left: 6px;
 }

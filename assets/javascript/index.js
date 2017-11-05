@@ -16,6 +16,7 @@ $(document).ready(function() {
     $(".ActiveICODiv").show();
     $(".UpcomingICODiv").hide();
     $(".RecentICODiv").hide();
+    $('.button-collapse').sideNav('hide');
 
   })
   //upcoming ICO display at click
@@ -23,6 +24,7 @@ $(document).ready(function() {
     $(".ActiveICODiv").hide();
     $(".UpcomingICODiv").show();
     $(".RecentICODiv").hide();
+    $('.button-collapse').sideNav('hide');
 
   });
   //recent ICO display at click
@@ -30,6 +32,6 @@ $(document).ready(function() {
     $(".ActiveICODiv").hide();
     $(".UpcomingICODiv").hide();
     $(".RecentICODiv").show();
-
+    $('.button-collapse').sideNav('hide');
   });
 });
