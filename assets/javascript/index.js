@@ -3,7 +3,9 @@ $(document).ready(function() {
   $(".dropdown-button").dropdown();
   $('select').material_select();
   // Initialize collapse button
-  $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({
+    edge: 'right', // Choose the horizontal origin
+  });
 
 
   //active ICOs displayed at load
