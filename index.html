@@ -21,285 +21,313 @@
 
   <body>
     <!-- navbar -->
+<main>
+  <div class="navbar-fixed">
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a class="activeNav">ACTIVE ICOs</a></li>
+      <li class="divider"></li>
+      <li><a class="upcomingNav">UPCOMING</a></li>
+      <li class="divider"></li>
+      <li><a class="recentNav">RECENT</a></li>
+    </ul>
 
-    <div class="navbar-fixed">
-      <!-- Dropdown Structure -->
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a class="activeNav">ACTIVE ICOs</a></li>
-        <li class="divider"></li>
-        <li><a class="upcomingNav">UPCOMING</a></li>
-        <li class="divider"></li>
-        <li><a class="recentNav">RECENT</a></li>
-      </ul>
-
-      <nav>
-        <div id="navi" class="nav-wrapper kingGradient z-depth-3">
-          <a href="index.html" class="brand-logo responsive-img">
-              <img src="assets/images/logo.png" class="logo" alt="logo">
-          </a>
-          <ul id="navElements" class="right hide-on-med-and-down">
-            <li><a class="mediaPage" href="media.html">MEDIA</a></li>
-            <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">OTHER ICOs<i class="material-icons right">arrow_drop_down</i></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <!--hamburger navbutton-->
-      <a data-activates="slide-out" class="right button-collapse" id="mobileNavMenu"><i class="hide-on-large-only medium material-icons menu">menu</i></a>
-    </div>
-      <!-- mobile nav structure -->
-      <ul id="slide-out" class="side-nav">
-          <li><div class="user-view">
-            <img id="logoinSideNav" class="" src="assets/images/LogoEmpty.png" style="">
-          </div></li>
-          <li><a class="waves-effect activeNav">ACTIVE ICOs</a></li>
-          <li><a class="waves-effect upcomingNav">UPCOMING ICOs</a></li>
-          <li><a class="waves-effect recentNav">RECENT ICOs</a></li>
-          <li><div class="divider"></div></li>
-          <li><a class="waves-effect mediaPage"href="media.html">MEDIA</a></li>
+    <nav>
+      <div id="navi" class="nav-wrapper kingGradient z-depth-3">
+        <a href="index.html" class="brand-logo responsive-img">
+            <img src="assets/images/logo.png" class="logo" alt="logo">
+        </a>
+        <ul id="navElements" class="right hide-on-med-and-down">
+          <li><a class="mediaPage" href="media.html">MEDIA</a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">OTHER ICOs<i class="material-icons right">arrow_drop_down</i></a>
+          </li>
         </ul>
-    <!-- end nav -->
-
-
-
-    <div class="ActiveICODiv">
-      <div id="titleICOdiv" class="row col s12 center-align">
-        <h1 class="titleICO">
-            ACTIVE ICOs
-        </h1>
       </div>
-      <!-- main container -->
-      <div class="container main">
-        <div class="row">
+    </nav>
 
-          <!-- card content to be created dynamicly ======================================  -->
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
+    <!--hamburger navbutton-->
+    <a data-activates="slide-out" class="right button-collapse" id="mobileNavMenu"><i class="hide-on-large-only medium material-icons menu">menu</i></a>
+  </div>
+    <!-- mobile nav structure -->
+    <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <img id="logoinSideNav" class="" src="assets/images/LogoEmpty.png" style="">
+        </div></li>
+        <li><a class="waves-effect activeNav">ACTIVE ICOs</a></li>
+        <li><a class="waves-effect upcomingNav">UPCOMING ICOs</a></li>
+        <li><a class="waves-effect recentNav">RECENT ICOs</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect mediaPage"href="media.html">MEDIA</a></li>
+      </ul>
+  <!-- end nav -->
+
+
+
+  <div class="ActiveICODiv">
+    <div id="titleICOdiv" class="row col s12 center-align">
+      <h1 class="titleICO">
+          ACTIVE ICOs
+      </h1>
+    </div>
+    <!-- main container -->
+    <div class="container main">
+      <div class="row">
+
+        <!-- card content to be created dynamicly ======================================  -->
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
               </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">5 DAYS LEFT</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">5 DAYS LEFT</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
                 </div>
               </div>
             </div>
           </div>
-          <!-- end card content  =====================================================  -->
+        </div>
+        <!-- end card content  =====================================================  -->
 
 
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
               </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">5 DAYS LEFT</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">5 DAYS LEFT</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
 
 
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
               </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">5 DAYS LEFT</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">5 DAYS LEFT</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
 
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
               </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">5 DAYS LEFT</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">5 DAYS LEFT</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
 
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
               </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">5 DAYS LEFT</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">5 DAYS LEFT</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
                 </div>
               </div>
             </div>
           </div>
-        </div> <!-- row end -->
-      </div> <!-- container -->
-    </div> <!-- end active ICO div ==================================================  -->
+        </div>
+      </div> <!-- row end -->
+    </div> <!-- container -->
+  </div> <!-- end active ICO div ==================================================  -->
 
-    <div class="UpcomingICODiv">
-      <div id="titleICOdiv" class="row col s12 center-align">
-        <h1 class="titleICO">
-            UPCOMING ICOs
-        </h1>
+  <div class="UpcomingICODiv">
+    <div id="titleICOdiv" class="row col s12 center-align">
+      <h1 class="titleICO">
+          UPCOMING ICOs
+      </h1>
+    </div>
+    <!-- main container -->
+    <div class="container main">
+      <div class="row">
+
+        <!-- card content to be created dynamicly ======================================  -->
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
+              </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">5 DAYS LEFT</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card content  =====================================================  -->
+
+      </div> <!-- row end -->
+    </div> <!-- container -->
+  </div> <!-- end Upcoming ICO div ==================================================  -->
+
+
+
+  <div class="RecentICODiv">
+    <div id="recentICOdiv" class="row col s12 center-align">
+      <h1 class="titleICO">
+          RECENT ICOs
+      </h1>
+    </div>
+    <!-- main container -->
+    <div class="container main">
+      <div class="row">
+
+        <!-- card content to be created dynamicly ======================================  -->
+        <div class="col m12 l6 xl4">
+          <div class="card darken-1">
+            <div class="card-content">
+              <div class="col s2">
+                <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
+              </div>
+              <div class="col s10">
+                <span class="card-title cardTitle">TITLE</span>
+              </div>
+              <span class="cardInfo">
+                Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
+              </span>
+            </div>
+            <div class="card-action">
+              <div class="row cardFooter">
+                <div class="col s6">
+                  <span class="daysLeft left">ENDED</span>
+                </div>
+                <div class="col s6">
+                  <a class="link right" href="#">link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card content  =====================================================  -->
+
+      </div> <!-- row end -->
+    </div> <!-- container -->
+  </div> <!-- end recent ICO div ==================================================  -->
+
+</main>
+
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <img src="assets/images/logo2.png" class="logo" alt="">
+        <p class="footerText">You can use rows and columns here to organize your footer content.</p>
       </div>
-      <!-- main container -->
-      <div class="container main">
-        <div class="row">
-
-          <!-- card content to be created dynamicly ======================================  -->
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
-              </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">5 DAYS LEFT</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end card content  =====================================================  -->
-
-        </div> <!-- row end -->
-      </div> <!-- container -->
-    </div> <!-- end Upcoming ICO div ==================================================  -->
-
-
-
-    <div class="RecentICODiv">
-      <div id="recentICOdiv" class="row col s12 center-align">
-        <h1 class="titleICO">
-            RECENT ICOs
-        </h1>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="linkHeader">Links</h5>
+        <ul>
+          <li><a class="footerLinks" href="#!">Link 1</a></li>
+          <li><a class="footerLinks" href="#!">Link 2</a></li>
+          <li><a class="footerLinks" href="#!">Link 3</a></li>
+          <li><a class="footerLinks" href="#!">Link 4</a></li>
+        </ul>
       </div>
-      <!-- main container -->
-      <div class="container main">
-        <div class="row">
-
-          <!-- card content to be created dynamicly ======================================  -->
-          <div class="col m12 l6 xl4">
-            <div class="card darken-1">
-              <div class="card-content">
-                <div class="col s2">
-                  <img class="icoIcons" src="assets/images/placeholder-round.png" alt="icon">
-                </div>
-                <div class="col s10">
-                  <span class="card-title cardTitle">TITLE</span>
-                </div>
-                <span class="cardInfo">
-                  Lorem ipsum dolor sit amet, constituto incorrupte signiferumque eos cu, alii veri velit vim ne, sed ut sonet euripidis. Ius ad iudico consequuntur, et nec malorum phaedrum.
-                </span>
-              </div>
-              <div class="card-action">
-                <div class="row cardFooter">
-                  <div class="col s6">
-                    <span class="daysLeft left">ENDED</span>
-                  </div>
-                  <div class="col s6">
-                    <a class="link right" href="#">link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end card content  =====================================================  -->
-
-        </div> <!-- row end -->
-      </div> <!-- container -->
-    </div> <!-- end recent ICO div ==================================================  -->
-
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2017 ICO KINGDOM
+    <a class="moreLinks right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>

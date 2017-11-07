@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
 html {
   background-color: #fcfcfc;
 }
@@ -119,7 +129,30 @@ i.medium {
   -webkit-text-fill-color: transparent;
 }
 
+.ActiveICODiv {
+  margin-bottom: 400px;
+}
 
+.page-footer {
+  background-color: #cfdcdc;
+}
+
+.page-footer .footer-copyright,
+.linkHeader {
+  color: #512c6a;
+}
+
+.footerText,
+.footerLinks,
+.moreLinks {
+  color: #5f2c82;
+}
+
+.footerLinks:hover,
+.moreLinks:hover {
+  color: #49a09d;
+  font-weight: bold;
+}
 /*media page ---------------------------------------------------------------------- */
 
 .homeNav {
