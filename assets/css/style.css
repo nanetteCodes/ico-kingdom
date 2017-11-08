@@ -154,6 +154,11 @@ i.medium {
   font-weight: bold;
 }
 
+.socialIcons {
+  margin-left: 15px;
+}
+
+
 /*media page ----------------------------- */
 
 .homeNav {
@@ -163,11 +168,6 @@ i.medium {
   border: none;
 }
 
-.fb-page{
-  transform-origin: 0 0;
-  -webkit-transform-origin: 0px 0px;
-  -moz-transform-origin: 0px 0px;
-}
 
 /*media queries -------------------------- */
 @media (max-width: 992px){
