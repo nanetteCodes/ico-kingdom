@@ -73,7 +73,7 @@ i.medium {
   width: 73px;
 }
 .titleICO {
-  padding-top: 30px;
+  padding-top: 62px;
   font-weight: 500;
   font-size: 580%;
   color: #5f2c82;  /* fallback for old browsers */
@@ -154,14 +154,22 @@ i.medium {
   font-weight: bold;
 }
 
-/*media page ---------------------------------------------------------------------- */
+/*media page ----------------------------- */
 
 .homeNav {
   padding-right: 26px;
 }
+.rembeddit {
+  border: none;
+}
 
+.fb-page{
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0px 0px;
+  -moz-transform-origin: 0px 0px;
+}
 
-/*media queries -------------------------------------------------------------------- */
+/*media queries -------------------------- */
 @media (max-width: 992px){
   .twitterWrapper {
     margin-top: 20px;
