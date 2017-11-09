@@ -162,6 +162,9 @@ i.medium {
   font-weight: bold;
 }
 
+.designedBy {
+  float: right;
+}
 .socialIcons {
   margin-left: 15px;
 }
@@ -175,15 +178,29 @@ i.medium {
   border: none;
 }
 
+.facebookDiv .video-container {
+  padding-bottom: 7%;
+}
+
 /*media queries -------------------------- */
 @media (max-width: 992px){
   .twitterWrapper {
-    margin-top: 20px;
+    margin-top: 2px;
   }
 }
 
 @media (max-width: 600px){
   #twitterDiv {
     width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  .designedBy {
+    float: none;
+    display: inline-block;
+  }
+  .page-footer {
+    text-align: center;
   }
 }
