@@ -203,4 +203,7 @@ i.medium {
   .page-footer {
     text-align: center;
   }
+  .brand-logo .logo {
+    float: left;
+  }
 }
