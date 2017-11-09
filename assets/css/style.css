@@ -83,6 +83,7 @@ i.medium {
   padding-top: 62px;
   font-weight: 500;
   font-size: 580%;
+  letter-spacing: 8px;
   color: #5f2c82;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#49a09d), to(#5f2c82));
   background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
