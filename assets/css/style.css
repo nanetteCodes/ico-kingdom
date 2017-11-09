@@ -193,9 +193,6 @@ i.medium {
   #twitterDiv {
     width: 100%;
   }
-}
-
-@media (max-width: 580px) {
   .designedBy {
     float: none;
     display: inline-block;
@@ -205,5 +202,8 @@ i.medium {
   }
   .brand-logo .logo {
     float: left;
+  }
+  .container {
+    width: 100%;
   }
 }
