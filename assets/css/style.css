@@ -187,6 +187,9 @@ i.medium {
 }
 
 @media (max-width: 600px){
+  .container.main {
+    width: 100%;
+  }
   #twitterDiv {
     width: 100%;
   }
@@ -196,14 +199,15 @@ i.medium {
   .designedBy {
     float: none;
     display: inline-block;
+    width: 100%;
   }
   .page-footer {
     text-align: center;
   }
+  /*.container.foot-CR {
+    width: 74%;
+  }*/
 
-  .container.main {
-    width: 100%;
-  }
   h4 {
     font-size: 24px;
   }
