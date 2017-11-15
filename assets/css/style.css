@@ -243,10 +243,11 @@ i.medium {
   margin-bottom: 8px;
 }
 
-ul:not(.browser-default)>li {
+ul.icoList:not(.browser-default)>li {
   list-style-type: circle;
   margin-left: 74px;
   line-height: 30px;
+  letter-spacing: 1px;
 }
 
 .modal {
@@ -260,6 +261,11 @@ ul:not(.browser-default)>li {
 
 }
 
+.modal p {
+  line-height: 30px;
+  letter-spacing: .75px;
+}
+
 /*helper classes ------------------------ */
 
 .uppercase {
@@ -267,7 +273,7 @@ ul:not(.browser-default)>li {
 }
 
 .letterspacing {
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 /*media queries -------------------------- */
