@@ -266,6 +266,25 @@ ul.icoList:not(.browser-default)>li {
   letter-spacing: .75px;
 }
 
+.teamImg {
+  width: 86px;
+}
+
+.teamFirst,
+.teamLast {
+  font-size: 1.20rem;
+  font-weight: 600;
+}
+
+.teamTitle {
+  color: #84878a;
+  font-size: 14px;
+}
+
+.in:hover {
+  cursor: pointer;
+  width: 40px;
+}
 /*helper classes ------------------------ */
 
 .uppercase {
@@ -276,6 +295,9 @@ ul.icoList:not(.browser-default)>li {
   letter-spacing: 3px;
 }
 
+div.teamMembers {
+  background-color: #e6e7e8;
+}
 /*media queries -------------------------- */
 @media (max-width: 992px){
   .twitterWrapper {
