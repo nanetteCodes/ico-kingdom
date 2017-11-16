@@ -192,10 +192,11 @@ i.medium {
 
 .icoBio {
   line-height: 26px;
+  font-weight: 400;
 }
 
 .icoMainRating {
-  color: #49a09d;
+  color: #5f2c82;
   font-weight: 500;
   font-size: 3.50rem;
   letter-spacing: 4px;
@@ -210,7 +211,7 @@ i.medium {
 }
 
 .score {
-  color: #5a4a60;
+  color: #49a09d;
 }
 
 .startsIn {
@@ -285,6 +286,32 @@ ul.icoList:not(.browser-default)>li {
   cursor: pointer;
   width: 40px;
 }
+
+div.teamMembers,
+div.financialCard {
+  background-color: #e6e7e8;
+}
+
+div.card-panel.z-index-3.financialCard.fc1 {
+  padding-bottom: 1px;
+}
+
+.financialCard h5 {
+  color: #5f2c82;
+  padding-bottom: 14px;
+}
+
+div.col.s12.lineCol {
+  padding-top: 14px;
+}
+
+.container.financialCont {
+  width: 80%;
+}
+
+.btn {
+  border-radius: 12px;
+}
 /*helper classes ------------------------ */
 
 .uppercase {
@@ -295,9 +322,7 @@ ul.icoList:not(.browser-default)>li {
   letter-spacing: 3px;
 }
 
-div.teamMembers {
-  background-color: #e6e7e8;
-}
+
 /*media queries -------------------------- */
 @media (max-width: 992px){
   .twitterWrapper {
