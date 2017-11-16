@@ -331,6 +331,12 @@ div.col.s12.lineCol {
 
 
 /*media queries -------------------------- */
+
+@media (min-width:1688px) {
+  .modal {
+    width: 58%;
+  }
+}
 @media (max-width: 1308px) {
   #icoNameInfo {
     text-align: center;
@@ -366,14 +372,33 @@ div.col.s12.lineCol {
     font-size: 24px;
   }
   .modal .modal-content {
-    padding: 20px 8px;
+    padding: 20px 0px;
+  }
+  .modal {
+    width: 95%;
+  }
+  .modal h4,
+  .modal h3 {
+    margin-top: 26px;
+  }
+  .phase2 {
+    padding: 16px;
+    margin: 14px 0;
+  }
+  #shareBtn {
+    margin-top: 8px;
   }
 }
+
 @media (max-width:517px) {
+  .modal {
+    width: 95%;
+  }
   a.modal-trigger {
     padding: 0 17px;
   }
 }
+
 @media (max-width:465px) {
   .container.main {
     width: 100%;
@@ -381,7 +406,13 @@ div.col.s12.lineCol {
   .icoBio {
     padding: 0 10px;
   }
-  .modal {
-    width: 95%;
+  .modal p,
+  .modal li,
+  .modal h6 {
+    font-size: 12px;
   }
+  .modal h3 {
+    font-size: 26px;
+  }
+
 }
