@@ -265,6 +265,7 @@ ul.icoList:not(.browser-default)>li {
   border: solid 1px grey;
   padding: 20px;
   margin: 14px ;
+  margin-top: 30px;
 
 }
 
@@ -318,7 +319,9 @@ div.col.s12.lineCol {
 .btn {
   border-radius: 12px;
 }
-
+.btn.modal-trigger {
+  color: #507990;
+}
 /*helper classes ------------------------ */
 
 .uppercase {
@@ -341,15 +344,16 @@ div.col.s12.lineCol {
   #icoNameInfo {
     text-align: center;
   }
+  .modal {
+    width: 84%;
+  }
 }
 
 @media (max-width: 992px){
   .twitterWrapper {
     margin-top: 2px;
   }
-  .modal {
-    width: 82%;
-  }
+
 }
 
 @media (max-width: 600px){
