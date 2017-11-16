@@ -13,6 +13,7 @@
 
     <!-- Meterialize icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/9ed83c7d20.js"></script>
     <!-- Metrialize Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <!-- JQuery -->
@@ -233,6 +234,22 @@
       </div>
     <!-- End Financial modal -->
 
+    <!-- Rate it modal -->
+    <div id="rateModal" class="modal">
+      <div class="modal-content">
+        <div class="row">
+          <div class="col s12 center">
+            <h3>WOULD YOU INVEST?</h3>
+            <span>
+              <a class="waves-effect waves-light teal white-text btn btn-large"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> YES</a>
+              <a class="waves-effect waves-light orange white-text btn btn-large" style="margin-left: 28px;"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i> NO</a>
+          </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Rate it modal -->
+
 
       <div class="container main" style="margin-top:120px;">
         <div class="row">
@@ -245,8 +262,9 @@
                 <div class="infoModals">
                   <a class="waves-effect waves-light btn btn-flat modal-trigger" href="#aboutModal">ABOUT</a>
                   <a class="waves-effect waves-light btn btn-flat modal-trigger" href="#teamModal">TEAM</a>
-                  <a class="waves-effect waves-light btn btn-flat modal-trigger" href="#financialModal">Financial</a>
-                  <a class="waves-effect waves-light indigo blue-grey-text lighten-5 btn right">SHARE</a>
+                  <a class="waves-effect waves-light btn btn-flat modal-trigger" href="#financialModal">FINANCIAL</a>
+                  <a class="waves-effect waves-light btn btn-flat modal-trigger" href="#rateModal">RATE IT</a>
+                  <a class="waves-effect waves-light indigo blue-grey-text lighten-5 btn" id="shareBtn">SHARE</a>
                 </div>
 
                 <hr>
@@ -340,7 +358,7 @@
               </div>
             </div>
             <div class="twitterWrapper z-depth-1">
-              <a class="twitter-timeline" data-height="576" data-link-color="#49a09d" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-height="482" data-link-color="#49a09d" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
         </div>
